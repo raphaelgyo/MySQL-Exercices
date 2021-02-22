@@ -1,7 +1,7 @@
 -- Exercice 13:
 -- Afficher la liste de employés avec leur titre.
 USE `employees`;
-SELECT `employees`.`first_name`,
+SELECT `employees`.`first_name`, `employees`.`last_name`,
     `titles`.`title`
 FROM `employees`
     INNER JOIN `titles` ON `employees`.`emp_no` = `titles`.`emp_no`

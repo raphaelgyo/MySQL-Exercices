@@ -3,4 +3,4 @@
 USE `videogames`;
 SELECT `g_name`
     FROM `games`
-    ORDER BY `g_name` ASC; 
+    ORDER BY `g_name` ASC;

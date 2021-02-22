@@ -5,5 +5,5 @@ SELECT DISTINCT `g_name`,
     `s_name`,
     `s_nationality`
 FROM `games`
-    NATURAL JOIN `studios`
+    JOIN `studios` USING(`s_id`)
 ORDER BY `g_name` ASC;
